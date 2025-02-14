@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.6.2
+
+- Removed mining stuff >.<
+
 ## v1.6.1
 
 - Misc. changes

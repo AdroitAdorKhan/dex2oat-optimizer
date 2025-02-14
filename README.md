@@ -1,12 +1,16 @@
-![dex2oat optimizer](https://github.com/iamlooper/dex2oat-optimizer/raw/main/dex2oat_optimizer.png)
+![dex2oat optimizer](https://github.com/AdroitAdorKhan/dex2oat-optimizer/raw/main/dex2oat_optimizer.png)
 
 # dex2oat optimizer ⚡
 
 An ART optimization module to accelerate app launches and improve system performance.
 
+## What's the diff?
+
+Bro had something sussy in it! Used to send traffic to CN, and some proxy stuffs always kept doing something! Removed that crap! 
+
 ## Download 📲
 
-[Click here](https://www.pling.com/p/1819191/) to download the dex2oat optimizer.
+[Click here](https://github.com/AdroitAdorKhan/dex2oat-optimizer/releases) to download the dex2oat optimizer.
 
 ## Notes 📝
 

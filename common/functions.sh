@@ -1,28 +1,3 @@
-############
-# Functions
-############
-
-setup_native_libs() {
-  case "$ARCH" in
-    arm64)
-      mv -f "$MODPATH"/libs/arm64-v8a/* "$MODPATH/libs"
-      rm -rf "$MODPATH/libs/arm64-v8a" "$MODPATH/libs/armeabi-v7a" "$MODPATH/libs/x86" "$MODPATH/libs/x86_64"
-      ;;
-    arm)
-      mv -f "$MODPATH"/libs/armeabi-v7a/* "$MODPATH/libs"
-      rm -rf "$MODPATH/libs/armeabi-v7a" "$MODPATH/libs/arm64-v8a" "$MODPATH/libs/x86" "$MODPATH/libs/x86_64"
-      ;;
-    x86)
-      mv -f "$MODPATH"/libs/x86/* "$MODPATH/libs"
-      rm -rf "$MODPATH/libs/x86" "$MODPATH/libs/armeabi-v7a" "$MODPATH/libs/arm64-v8a" "$MODPATH/libs/x86_64"
-      ;;
-    x64)
-      mv -f "$MODPATH"/libs/x86_64/* "$MODPATH/libs"
-      rm -rf "$MODPATH/libs/x86_64" "$MODPATH/libs/armeabi-v7a" "$MODPATH/libs/x86" "$MODPATH/libs/arm64-v8a"
-      ;;
-  esac
-}
-
 #######
 # Main
 #######
